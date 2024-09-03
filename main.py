@@ -6,6 +6,7 @@ from config import *
 
 app = Flask(__name__)
 
+print ("hello")
 # Ensure the UPLOAD_FOLDER exists
 UPLOAD_FOLDER = os.path.join(app.root_path, 'static', 'audio')
 os.makedirs(UPLOAD_FOLDER, exist_ok=True)
